@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <link rel="stylesheet" href="src/css/index.css">
+    <title>Pipedrive CRM</title>
+</head>
+
+<body>
+
+
+    <form id="create-job-form">
+        <div class="container">
+            
+            <div class="cards">
+                <h2>Client details</h2>
+                <div class="neighbor-input">
+                    <input type="text" placeholder="First name" name="698fb7a933051bbd9f507e74df8240e4ca2d8a4f">
+                    <input type="text" placeholder="Last name" name="29c32b6df1f5ea7cc4af2869a446f04cd0fcf614">
+                </div>
+                <div class="full-width-input">
+                    <input type="text" placeholder="Phone" name="a82aa304b29a70a8d2f69c1628fb0ffc54b09939">
+                    <input type="email" placeholder="Email (optional)" name="ff83d509d82ae48c7427ec910d012af62208a128">
+                </div>
+            </div>
+            
+            
+            <div class="cards">
+                <h2>Job type</h2>
+                <div class="neighbor-input">
+                    <select name="212d8612fe31cd16d1bcc01a60575edecb9bd2b0">
+                        <option value="" disabled selected>Job type</option>
+                        <option value="remote">Remote</option>
+                        <option value="fulltime">Full time</option>
+                    </select>
+                    <select name="ec0104d125944747c5a673f8a05a8b511c0f20d2">
+                        <option value="" disabled selected>Job source</option>
+                        <option value="linkedin">LinkedIn</option>
+                        <option value="hh">hh.uz</option>
+                    </select>
+                </div>
+                <div class="full-width-input">
+                    <textarea placeholder="Job description (optional)" name="1dba00dbbbd9f2167caa816fed86cad140531bf4"></textarea>
+                </div>
+            </div>
+            
+            
+            <div class="cards">
+                <h2>Service location</h2>
+                <div class="full-width-input">
+                    <input type="text" placeholder="Address" name="aadabedde53b0c6bab0cd69a1b45bc6fbd643638">
+                    <input type="text" placeholder="City" name="707f63a474a405d9c7bb0dc109bdcf4516bca08f">
+                    <input type="text" placeholder="State" name="a1e49a59012343a1c614c34c08108c586879d831">
+                </div>
+                <div class="neighbor-input">
+                    <input type="text" placeholder="Zip code" name="8ece6b42f9cc2f93adc755a3f107d932bd266a06">
+                    <select name="faee701ab48f2f89e10f9853f23296e99cb3387e">
+                        <option value="" disabled selected>Area</option>
+                        <option value="wallstreet">Wall street</option>
+                    </select>
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Scheduled</h2>
+                <div class="full-width-input">
+                    <input type="date" placeholder="Start date" name="672773eb35a1ff36e27ed847fe19a4937fe57d88">
+                </div>
+                <div class="neighbor-input">
+                    <input type="time" placeholder="Start time" name="568ce1061018423acaccd904aa74b2ac07bf9d5f">
+                    <input type="time" placeholder="End time" name="f1a53dab31ad5678f61becde93ac11cfcb3b5cdb">
+                </div>
+                <div class="full-width-input">
+                    <select name="8b0a2d169b0388d97e61140a5f045e553d279787">
+                        <option value="" disabled selected>Test select</option>
+                        <option value="info">some information</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <button type="submit">Save</button>
+    </form>
+
+    <button id="testButton">Test</button>
+    <div id="result"></div>
+
+
+
+    <script type="module" src="src/js/index.js"></script>
+
+</body>
+
+</html>
