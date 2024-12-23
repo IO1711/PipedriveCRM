@@ -3,7 +3,7 @@
 
 //API key = 5025672e38f7be0d749eb81bbe59c5e540707690   /dealFields?api_token=${apiToken}
 
-import FetchWrapper from "./src/js/fetch-wrapper.js";
+import FetchWrapper from "https://github.com/IO1711/PipedriveCRM/src/js/fetch-wrapper.js";
 
 //const testDiv = document.querySelector("#result");
 //const testBtn = document.querySelector("#testButton");
